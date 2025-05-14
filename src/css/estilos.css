@@ -1,0 +1,107 @@
+html{
+    font-family: "poppins";
+    background: url(../images/bg-desktop.svg) center,center,no-repeat  ;
+    background-color:  hsl(257, 40%, 49%) ;
+    max-width: 1440px ;
+}
+
+header{
+    padding: 5px 35px;
+}
+
+.logo img{
+    width: 200px;    
+    height: 90px;
+    margin: 25px;
+
+}
+
+.main{
+    display: flex;
+    color: #fff;
+    margin-top: 35px;
+    margin-left: 40px;
+}
+
+.main img{
+    width: auto;
+    padding: 0 20px;
+}
+
+.main .conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .conteudo h2{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+
+.main .conteudo .description{
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 20px;
+    font-weight: 400;
+}
+
+
+.main .btn{
+    background-color: #fff;
+    color: hsl(257, 40%, 49%);
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 18px 67px;
+    margin-left: 5%;
+    transition: 0.3s;
+}
+
+.main .btn:hover {
+    color: #fff;
+    background-color: hsl(300, 69%, 71%);
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .social{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 12px;
+    margin:20px;
+}
+
+.footer .social a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    transition: 0.3s;
+    color: #fff;  
+    border: 1px solid #fff;
+    border-radius:50%;
+    width: 40px;
+    height: 40px;
+}
+
+.footer .social a:hover{
+    color: hsl(300, 69%, 71%) ;
+}
+
+.footer .attribution{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    font-size: 12px;
+}

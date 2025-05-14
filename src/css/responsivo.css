@@ -1,0 +1,39 @@
+@media(max-width:768px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .main img{
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .main .conteudo {
+    max-width: 90%;
+  }
+
+  .main .conteudo h2{
+    font-size: 30px;
+  }
+
+  .main .conteudo h2,
+  .main .conteudo p {
+    margin: 10px 0;
+  }
+
+
+.footer .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+  }     
+}
